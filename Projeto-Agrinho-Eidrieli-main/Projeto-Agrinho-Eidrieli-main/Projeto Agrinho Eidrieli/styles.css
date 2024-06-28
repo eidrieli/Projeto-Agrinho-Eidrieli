@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #ffffff;
     --botao-azul: #6b8bf1;
-    --cor-de-fundo: #1d5799;
+    --cor-de-fundo: #5b7ff3;
     --fonte-principal: 'Inter';
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .principal {
-    background-image: url("outra\ foto.png");
+    background-image: url("me\ ajuda.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
