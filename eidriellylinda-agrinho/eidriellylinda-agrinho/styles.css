@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0f7da, #fff8e1);
+  color: #333;
+}
+
+header {
+  background: #81c784;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #ffb300;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #ffa000;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #4caf50;
+}
+
+footer {
+  background: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
